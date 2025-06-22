@@ -80,11 +80,14 @@ button {
   justify-content: space-between;
 }
 .done-task {
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  margin: 20px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
   background-color: #e0ffe0;
   border-left: 4px solid green;
-  padding: 10px;
-  margin: 10px 0;
   opacity: 0.85;
 }
