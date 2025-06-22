@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 200px;
+}
+body {
+  background-color: rgba(169, 161, 145, 0.851);
+}
+input {
+  width: 400px;
+  height: 40px;
+}
+h2,
+h3 {
+  max-width: 200px;
+  padding: 20px;
+}
+h3 {
+  padding-right: 78px;
+}
+button {
+  background-color: slategray;
+  padding: 10px;
+  border-radius: 8px;
+}
+#cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.cart {
+  width: 100%;
+  background-color: rgb(165, 154, 154);
+  display: flex;
+  flex-direction: column;
+}
+.input-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.main {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  margin: 20px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.done-task {
+    display: flex;
+    flex-direction: column;
+  background-color: #e0ffe0;
+  border-left: 4px solid green;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0.85;
+}
